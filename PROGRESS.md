@@ -707,3 +707,10 @@ then `test_ph_sync.py` for a real end-to-end reading.
   a Pi.
 - Open: one basin per Pi in oneM2M mode; plain HTTP on the LAN; tokens not bound to
   originators; no commands/subscriptions (app is read-only for now).
+
+## 2026-11-15 (README)
+- Added `README.md`: what the repo is, the two backends (`HYDRO_BACKEND`), architecture and
+  oneM2M resource tree, repository layout, Pi setup for the oneM2M backend (points to
+  `docs/onem2m.md` for detail), testing ACME without a Pi, exporting history, and current limits.
+- The service files still expect the repo at `/home/pi/HydroponicPiLogic`; the README says to
+  clone `HydroponicPiLogic_onem2m` to that path or edit the service files.
